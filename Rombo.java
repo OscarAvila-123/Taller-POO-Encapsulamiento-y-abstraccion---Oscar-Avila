@@ -1,0 +1,12 @@
+class Rombo extends FiguraGeometrica {
+    private double d1, d2;
+
+    public Rombo(double d1, double d2) {
+        this.d1 = d1;
+        this.d2 = d2;
+    }
+
+    public double calcularArea() {
+        return (d1 * d2) / 2;
+    }
+}
